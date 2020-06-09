@@ -1,0 +1,49 @@
+#question {
+    border-style: dashed;
+    border-width: 3px;
+    font-size: 30px;
+    border-spacing: inherit;
+    font-family: sans-serif;
+    margin-right: 1500px;
+}
+
+#questionBox {
+    border-style: dashed;
+    font-size: 20px;
+    font-family: monospace;
+    margin-right: 1500px
+}
+
+body {
+    background-color: aquamarine;
+}
+
+#Enter {
+    border-width: 1px;
+    font-size: 20px;
+    background-color: #1e8cd6;
+    margin-right: 20px;
+}
+
+#Next-Question {
+    border-width: 1px;
+    font-size: 20px;
+    background-color: #1e8cd6;
+}
+
+#Help {
+    border-width: 1px;
+    font-size: 20px;
+    background-color: #f4f6f7;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+#Restart {
+    border-width: 1px;
+    font-size: 20px;
+    background-color: #f4f6f7;
+    margin-left: 100px;
+    margin-top: 5px;
+}
