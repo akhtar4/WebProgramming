@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--Doctype declares the type of language that will be used. Will be using html-->
 <html lang="en">
+<!--Head displays Tab title and allows is to add other important data such as css external file. -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,38 +10,46 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+<!--All displayable content goes inside the body-->
 
 <body>
-    <script type="text/javascript" src="javaScript/JavaScript.js" defer></script>
-    <div id="container" class="container">
-        <div id="questionheader" class="question"></div>
-        <h1 id="question">Question Goes here</h1>
-        <ol id="questionBox" type="A">
-            <li><input type="radio" class="option" id="A" onclick="checkAnswer('A')">
-            <li><input type="radio" class="option" id="B" onclick="checkAnswer('B')">
-            <li><input type="radio" class="option" id="C" onclick="checkAnswer('C')">
-        </ol>
-
-    </div>
-    </div>
 
 
+    <!--<h1> tag placed for displaying the questions from JavaScript. Given an ID of "question"-->
+    <h1 id="question">Question Goes here</h1>
+    <!--List Created to match multiple choice format. Added id of "questionBox"-->
+    <ol id="question-box" type="A">
+        <li><input type="radio" class="option" id="A" onclick="checkAnswer('A')">
+        <li><input type="radio" class="option" id="B" onclick="checkAnswer('B')">
+        <li><input type="radio" class="option" id="C" onclick="checkAnswer('C')">
+    </ol>
+
+    <!--Script Tag defines the location of the JavaScript File. Placed at the bottom for faster load times.-->
     <script type="text/javascript" src="javaScript/JavaScript.js" defer></script>
 </body>
 <br>
 <br>
+<!--<br> tags add space between the radio buttons and enter and next Question buttons--->
 <div id="enter-next">
-    <button id="Enter" type="button" onclick="questions()">Enter Answer</button>
-    <button id="Next-Question" type="button">Next Question</button> <br>
-
-    <div id="help-restart"> <br>
-        <button id="Help" type="button">Help</button>
-        <button id="Restart" type="button">Restart</button>
-    </div>
-
-
-
+    <!--Enter button hides multiple choice screen and displays whether the question was answered right or wrong-->
+    <button id="enter" type="button" onclick="questions()">Enter Answer</button>
+    <!--Next question works after clicking enter button. Displays next Question-->
+    <button id="next-question" type="button">Next Question</button> <br>
 </div>
-<script type="text></script>
-     
+
+
+
+<div id="help-restart"> <br>
+    <!--Help button hides current screen at any given time and displays instructions on how to play the game-->
+    <button id="help" type="button">Help</button>
+    <!--Restart button triggers loop and starts game over again-->
+    <button id="restart" type="button">Restart</button>
+</div>
+
+
+
+
+<!--Final Changes complete. Could not create more COMMITS due to Integration error of GIT inside VS-CODE or other IDES. Suspect
+problem within download files. THEREFORE: had to manually push and commit files from the Command Prompt. -->
+
 </html>

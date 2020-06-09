@@ -1,8 +1,9 @@
 const choiceA = document.getElementById("A");
 const choiceB = document.getElementById("B");
 const choiceC = document.getElementById("C");
+//Used Const to declare answer options. Attempted to use getElementById . 
 
-
+//Attempted to create an array as instructed by Professor to switch questions. 
 let question1 = [{
         question: "Who directed the Dark Knight Trilogy?",
         choiceA: "Steven Spielberg",
@@ -28,9 +29,10 @@ let question1 = [{
     }
 ]
 
+
+//Created function to change questions through innerHTML
 function displayingQuestion() {
-    let TriviaQuestions = questions[currentQuestion];
-    question.innerHTML = "<h1>" + h1.question + "</h1>";
+
     choiceA.innerHTML = TriviaQuestions.choiceA;
     choiceB.innerHTML = TriviaQuestions.choiceB;
     choiceC.innerHTML = TriviaQuestions.choiceC;

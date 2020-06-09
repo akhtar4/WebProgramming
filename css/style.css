@@ -1,3 +1,4 @@
+/*question ID display the property of h1 where question will go*/
 #question {
     border-style: dashed;
     border-width: 3px;
@@ -7,31 +8,35 @@
     margin-right: 1500px;
 }
 
-#questionBox {
+/*All the radio buttons are stored inside. created ID to have seperate border*/
+#question-box {
     border-style: dashed;
     font-size: 20px;
     font-family: monospace;
     margin-right: 1500px
 }
 
+/*Body color set to aquamarine*/
 body {
     background-color: aquamarine;
 }
 
-#Enter {
+/*Created [Enter, Next-Question, Help, Restart]
+button properties to match professors buttons*/
+#enter {
     border-width: 1px;
     font-size: 20px;
     background-color: #1e8cd6;
     margin-right: 20px;
 }
 
-#Next-Question {
+#next-question {
     border-width: 1px;
     font-size: 20px;
     background-color: #1e8cd6;
 }
 
-#Help {
+#help {
     border-width: 1px;
     font-size: 20px;
     background-color: #f4f6f7;
@@ -40,7 +45,7 @@ body {
 
 }
 
-#Restart {
+#restart {
     border-width: 1px;
     font-size: 20px;
     background-color: #f4f6f7;
