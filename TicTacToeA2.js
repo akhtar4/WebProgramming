@@ -1,6 +1,7 @@
 /* Muhammad Rasheed Akhtar */
 
 // TODO document this
+// We are getting the element tag by using the DOM
 var board = document.getElementsByTagName('td');
 
 // assuming we index the 9 tic tac toe cells from left to right, top to
@@ -48,7 +49,7 @@ function resetGame() {
 	player = 'X';
 	document.getElementById('player').innerHTML = player;
 	
-	// TODO reset gameOver and # of empty cellss
+	// TODO reset gameOver and # of empty cells
 	
 	
 }
