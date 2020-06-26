@@ -40,7 +40,9 @@ function resetGame() {
 	for (i = 0; i < board.length; i++) {
 		board[i].innerHTML = "";
 	}
-	// TODO reset player back to X and update it on the page
+	
+	//set variable gameOver to false as well as made all the cells empty.
+	//changed starting player back to X.
 	gameOver = false;
 	empty = 9;
 	player = 'X';
