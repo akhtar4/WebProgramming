@@ -41,8 +41,8 @@ function resetGame() {
 		board[i].innerHTML = "";
 	}
 	
-	//set variable gameOver to false as well as made all the cells empty.
-	//changed starting player back to X.
+	//set variable gameOver to false as well as made all the cells empty.-------2nd Commit-----
+	//changed starting player back to X.-----2nd Commit------
 	gameOver = false;
 	empty = 9;
 	player = 'X';
@@ -62,6 +62,8 @@ function resetGame() {
  4. flips (changes) the current player
  5. updates the message to the current player
  */
+
+//Added if statement to go through click cells. ------3rd Commit----
 function cellClicked(cell){
 	//TODO: 1-5 should occur only when the selected cell is empty and the game is
 	// still in progress!
